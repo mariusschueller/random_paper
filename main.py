@@ -26,7 +26,7 @@ while not is_done:
     # print(data[rand_listing])
     # print(data[rand_listing]['paper_url'])
     print()
-    print("title: " + data[rand_listing]['paper_title'])
+    print(data[rand_listing]['paper_title'])
     print("pdf: " + data[rand_listing]['paper_url_pdf'])
     print("repo: " + data[rand_listing]['repo_url'] + "\n")
 
